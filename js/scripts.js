@@ -5,9 +5,13 @@ function beepBooped(number){
   for (var i=number, i=0; i--){
 
     if (number.includes(0)){
+      while ((!number.includes(1))||(!number%3 ==0)){
       number="Beep";
+      }
     } else if (number.includes(1)){
+      while (!number%3 ==0){
       number="Boop";
+      }
     } else if (number%3 == 0){
       number="I'm sorry, Dave. I'm afraid I can't do that.";
     } else {
