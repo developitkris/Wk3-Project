@@ -6,24 +6,38 @@
 
 ## Description
 _Specs_
-_1. Is it a number_
-_2. Does it contain a 0_
-_3. Does it contain a 1_
-_4. Is it a number divisible by 3_
-_5. Does it contain a 0 and a 1_
-_6. Does it contain a 0 and a number divisible by 3_
-_7. Does it contain a 1 and a number divisible by 3_
-_8. Does it contain a 0 and a 1 and a number divisible by 3_
-_9. Is it a positive number_
-_10. Is it a whole number_
+
+_1. Check if it is it a number._
+
+_2. Check if it contains a 0._
+
+_3. Check if it contains a 1._
+
+_4. Check if it is a number divisible by 3._
+
+_5. Check if it contains both 0 and a 1._
+
+_6. Check if it contains both 0 and a number divisible by 3._
+
+_7. Check if it contains both 1 and a number divisible by 3._
+
+_8. Check if it contains 0, 1, and a number divisible by 3._
+
+_9. Check if it is a positive number._
+
+_10. Check if it is a whole number._
 
 
 ## Setup/Installation Requirements
 
 * _Go to developitkris' repository_
+
 * _Find Wk3-Project_
+
 * _Clone repository_
+
 * _Open up .html file in browser_
+
 * _input a number_
 
 
@@ -31,20 +45,27 @@ _10. Is it a whole number_
 
 _There are no known bugs to date_
 
+
 ## Support and contact details
 
 _Please contact Kristi Hwang at <mailto: krsy3ii@yahoo.com>_
 
+
 ## Technologies Used
 
 _HTML5_
+
 _CSS3_
+
 _Bootstrap 4.0_
+
 _jQuery 3.3.1_
+
 _JavaScript_
 
 
 ### License
+
 
 *Under the MIT License*
 

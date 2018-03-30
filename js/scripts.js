@@ -3,7 +3,8 @@ var inputNumArr = [];
 
 function beepBooped(number){
   for (var i=number; i=0; i--){
-    inputNumArr.push(i);
+    var count = number;
+    inputNumArr= inputNumArr.push(i) + count;
     count--;
       if (number.includes(0)){
         while ((!number.includes(1))||(!number%3 ==0)){
@@ -23,6 +24,9 @@ function beepBooped(number){
 
 //User Logic
 $(document).ready(function(){
+  $("#reset").click(function(){
+    reset();
+  });
   $("form#beepBoop").submit(function(event){
     event.preventDefault();
 
@@ -33,7 +37,6 @@ $(document).ready(function(){
         input+=input;
       } else {
         alert("Please input a number. Any non-numeric values are considered invalid inputs.")
-        reset();
       };
     };
 
@@ -41,5 +44,6 @@ $(document).ready(function(){
     var userResult = beepBooped(inputNum);
 
     $("#" + userResult).show();
+
   });
 });
