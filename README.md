@@ -1,6 +1,6 @@
-# _Beep Bop_
+# _Beep Boop_
 
-#### _If input is 0 or 1, output Beep or Bop accordingly.  If number is divisible by 3, output: "I'm sorry, Dave. I'm afraid I can't do that.", March 30, 2018_
+#### _If input is 0 or 1, output Beep or Boop accordingly.  If number is divisible by 3, output: "I'm sorry, Dave. I'm afraid I can't do that.", March 30, 2018_
 
 #### By _**Kristi Hwang**_
 
