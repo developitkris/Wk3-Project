@@ -13,7 +13,9 @@ _4. Is it a number divisible by 3_
 _5. Does it contain a 0 and a 1_
 _6. Does it contain a 0 and a number divisible by 3_
 _7. Does it contain a 1 and a number divisible by 3_
-_8. Does it contain a 0 and a 1 and a number divisible by 3
+_8. Does it contain a 0 and a 1 and a number divisible by 3_
+_9. Is it a positive number_
+_10. Is it a whole number_
 
 
 ## Setup/Installation Requirements

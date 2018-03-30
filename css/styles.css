@@ -13,10 +13,11 @@ h1{
   font-size: 100px;
   text-align: left;
   font-weight: bold;
+  border-style: solid;
 }
 
 label{
-  font-size: 70px;
+  font-size: 55px;
   text align: left;
   font-style: italic;
 }
