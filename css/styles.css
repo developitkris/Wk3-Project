@@ -1,3 +1,22 @@
 #result{
   display: none;
 }
+
+body{
+  background-image: url("../bippity.gif");
+  color: #f47d42;
+  font-size: 45px;
+  font-family: fantasy;
+}
+
+h1{
+  font-size: 100px;
+  text-align: left;
+  font-weight: bold;
+}
+
+label{
+  font-size: 70px;
+  text align: left;
+  font-style: italic;
+}
