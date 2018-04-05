@@ -1,6 +1,10 @@
 //Business Logic
 var inputNumArr = [];
 
+function reset(number){
+  number== null;
+}
+
 function beepBooped(number){
   for (var i=number; i=0; i--){
     var count = number;
@@ -16,6 +20,8 @@ function beepBooped(number){
         }
       } else if (number%3 == 0){
         number="I'm sorry, Dave. I'm afraid I can't do that.";
+      } else {
+        return inputNumArr;
       }
     inputNumArr= inputNumArr.reverse();
   }
@@ -24,9 +30,6 @@ function beepBooped(number){
 
 //User Logic
 $(document).ready(function(){
-  $("#reset").click(function(){
-    reset();
-  });
   $("form#beepBoop").submit(function(event){
     event.preventDefault();
 
@@ -47,3 +50,6 @@ $(document).ready(function(){
 
   });
 });
+  $("#reset").click(function(){
+    reset();
+  });
