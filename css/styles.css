@@ -3,10 +3,11 @@
 }
 
 body{
-  background-image: url("../bippity.gif");
+  //background-image: url("../bippity.gif");
   color: #ffcb0c;
   font-size: 45px;
   font-family: fantasy;
+  background-color: #08324d;
 }
 
 h1{
